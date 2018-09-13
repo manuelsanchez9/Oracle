@@ -36,3 +36,5 @@ default tablespace bigtbssts;
 grant connect to manuels;
 
 grant create session to manuels; 
+
+alter user manuels quota 100M on bigtbssts;    
