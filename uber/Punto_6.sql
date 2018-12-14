@@ -192,9 +192,9 @@ create table Liquidaciones(
 
 create sequence Liquidaciones_seq start with 1 increment by 1;
 
-INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Medellín',32142,'COP');
+INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Medellin',32142,'COP');
 INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Manizales',42004,'COP');
-INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Bogotá',48743,'COP');
+INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Bogota',48743,'COP');
 INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Santa Marta',47458,'COP');
 INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Barranquilla',54369,'COP');
 INSERT INTO Localizaciones (id,pais,ciudad,codigo,tipo_moneda) VALUES (Localizaciones_seq.nextval,'Colombia','Cali',19500,'COP');
